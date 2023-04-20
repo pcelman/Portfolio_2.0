@@ -1,6 +1,8 @@
 .about {
-  background-color: #cb8a8a;
+  /* background-color: #cb8a8a; */
+  background-image: linear-gradient(to bottom, #874669, #ab6d78, #c89891, #e0c5b6, #faf1e6);
   margin: auto;
+  margin-top: 90px;
   width: 100%;
   color: var(--butter);
 }
@@ -28,6 +30,13 @@
   display: none;
 } 
 
+.about_bg {
+  height: 350px;
+  width: 350px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
 .about h2 {
   font-size: 3rem;
   padding-top: 4rem;

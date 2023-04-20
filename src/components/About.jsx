@@ -1,5 +1,5 @@
 import React from "react";
-import paula from "../images/about__pcv.png";
+import paula from "../images/Paula_crop.png";
 import paulamd from "../images/about__pcv-574.png";
 import { FiFigma } from "react-icons/fi";
 import { FaCss3Alt, FaGitAlt } from "react-icons/fa";
@@ -21,22 +21,26 @@ const About = () => {
   return (
     <div className="about" id="home">
       <div className="container">
+        <section>
+
         {/* <div className="about__image"></div> */}
          <img
           className="about__img"
           src={paula}
           alt="Smiling woman with a quote of Leonardo da Vinci on top that reads ´Simplicity is the ultimate sophistication´ "
-          width="748px"
-        />
-        <img
+          width="350px"
+          />
+        <span class="about_bg"></span>
+        {/* <img
           className="about__img-md"
           src={paulamd}
           alt="Smiling woman with a quote of Leonardo da Vinci on top that reads ´Simplicity is the ultimate sophistication´ "
           width="574px"
-        /> 
+        />  */}
+        </section>
 
         <div className="col-2">
-          <span className="line"></span>
+          {/* <span className="line"></span> */}
           <p className="about__text">
             As a &nbsp;<strong>Front End Developer &nbsp;</strong>
             with a background in Industrial Design and a Master's degree in Fine
@@ -44,13 +48,10 @@ const About = () => {
             My ability to communicate effectively in English and Spanish,
             combined with my passion for collaboration and teamwork, make me an
             asset to any project. My proactive and positive attitude, coupled
-            with my dedication to producing high-quality work, sets me apart. In
-            my free time, I enjoy staying active through my hobby of dancing
-            Zumba.
+            with my dedication to producing high-quality work, sets me apart.
           </p>
           <p className="about__bold">
-            In addition to my technical skills, I am a creative problem solver
-            with a keen eye for design.&nbsp; &nbsp;
+            
             <a
               href={cv}
               target="_blank"
@@ -71,7 +72,7 @@ const About = () => {
                 target="_blank"
                 rel="noreferrer noopener"
               >
-                
+
                 <IoLogoJavascript
                   size={35}
                   className="skills__icon"
