@@ -1,5 +1,7 @@
 import React from "react";
 import paula from "../images/Paula_crop.png";
+import b from "../images/b1.png";
+import g from "../images/g1.png";
 import paulamd from "../images/about__pcv-574.png";
 import { FiFigma } from "react-icons/fi";
 import { FaCss3Alt, FaGitAlt } from "react-icons/fa";
@@ -13,6 +15,7 @@ import {
   SiExpress,
   SiSequelize,
 } from "react-icons/si";
+import {RiFilePaperLine} from "react-icons/ri"
 import { GrNode } from "react-icons/gr";
 import cv from "../assets/paulacelman.pdf";
 import "../styles/About.css";
@@ -21,16 +24,24 @@ const About = () => {
   return (
     <div className="about" id="home">
       <div className="container">
-        <section>
+        <section className="paralax__container">
 
         {/* <div className="about__image"></div> */}
+        <section className="about__paralax">
+        
+          <img src={g} alt="broken edges circle" width="350px" className="about__bg-back image"/>
+
+          <img src={b} alt="broken edges circle" width="350px" className="about__bg-middle image"/>
+      
+      
          <img
-          className="about__img"
+          className="about__foreground image"
           src={paula}
-          alt="Smiling woman with a quote of Leonardo da Vinci on top that reads ´Simplicity is the ultimate sophistication´ "
+          alt="Smiling woman"
           width="350px"
           />
-        <span class="about_bg"></span>
+     
+        </section>
         {/* <img
           className="about__img-md"
           src={paulamd}
@@ -59,9 +70,12 @@ const About = () => {
               download="Paula_Celman_CV.pdf"
               className="download__cv"
             >
-              Download CV
+               Download CV
             </a>
+            {/* <RiFilePaperLine /> */}
           </p>
+
+          
           <div className="skills">Skills</div>
           <span className="line"></span>
           <ul className="skills__content">

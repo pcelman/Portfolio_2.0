@@ -6,7 +6,7 @@ const Demo = () => {
   return (
     <div className="demo" id="demo">
       {/* <h2>Project demos</h2> */}
-      <span className="line"></span>
+      {/* <span className="line"></span> */}
       <br />
       <br />
       <div className="container">

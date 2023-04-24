@@ -18,8 +18,8 @@ export default function Projects() {
   return (
     <div className="projects" id="projects">
       <div className="container">
-        <h2 className="container__title">Projects</h2>
-        <span className="line"></span>
+        {/* <h2 className="container__title">Projects</h2> */}
+        {/* <span className="line"></span> */}
         <div className="content">
           <section className="project">
             <img className="project__image"
