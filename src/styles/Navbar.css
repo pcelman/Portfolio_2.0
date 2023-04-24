@@ -29,9 +29,11 @@
 .header .navbar__name {
   margin-left: 20px;
   width: 250px;
-  font-family: 'Inria Serif', serif;
+  font-weight: 200;
+  /* font-family: 'Inria Serif', serif; */
   color: var(--butter);
   font-size: 35px;
+  letter-spacing: 1.6px;
 }
 
 .header .nav__menu {

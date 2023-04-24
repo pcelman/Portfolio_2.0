@@ -111,20 +111,18 @@
   font-weight: 600;
 }
 
-/* .about__bold::after {
-font-family: "Font Awesome 5 Free";
-content: " \f35d";
-font-weight: 900;
-font-size: .7em;
-} */
-
 .about .col-2 p:first-of-type {
   margin: 2rem 0;
 }
 
-.skills {
+.about__skills__title {
+  margin: 0 auto;
+  justify-self: center;
+  justify-items: center;
+
   font-size: 3rem;
   font-weight: bold;
+  color: red;
 }
 
 .skills__content {
