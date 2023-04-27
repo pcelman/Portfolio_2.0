@@ -3,7 +3,6 @@ import paula from "../images/Paula_crop.png";
 import b from "../images/b1.png";
 import g from "../images/g1.png";
 import paulamd from "../images/about__pcv-574.png";
-import image from "../images/p1.png";
 import { FiFigma } from "react-icons/fi";
 import { FaCss3Alt, FaGitAlt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
@@ -16,24 +15,44 @@ import {
   SiExpress,
   SiSequelize,
 } from "react-icons/si";
-import { GoMarkGithub } from "react-icons/go";
-import { BsLinkedin } from "react-icons/bs";
-import { HiOutlineMailOpen } from "react-icons/hi";
+
 import { RiFilePaperLine } from "react-icons/ri";
 import { GrNode } from "react-icons/gr";
 import cv from "../assets/paulacelman.pdf";
-import "../styles/about.css";
+import "../styles/About.css";
 
-export default function About() {
+const About = () => {
   return (
-    <main className="about" id="home">
+    <div className="about" id="home">
       <div className="about__container">
-        {/* <section className="about__presentation"> */}
-        <figure className="about_image">
-          <img src={image} alt="" />
-        </figure>
-        <div className="about__secondcol">
-          <p className="about__paragraph">
+        {/* <div className="about__col-1"> */}
+
+        <section className="about__paralax">
+          <img
+            src={g}
+            alt="broken edges circle"
+            width="350px"
+            className="about__bg-back image"
+          />
+
+          <img
+            src={b}
+            alt="broken edges circle"
+            width="350px"
+            className="about__bg-middle image"
+          />
+
+          <img
+            className="about__foreground image"
+            src={paula}
+            alt="Smiling woman"
+            width="350px"
+          />
+        </section>
+
+        <div className="col-2">
+          {/* <span className="line"></span> */}
+          <p className="about__text">
             As a &nbsp;<strong>Front End Developer &nbsp;</strong>
             with a background in Industrial Design and a Master's degree in Fine
             Arts, I bring a unique perspective and set of skills to the table.
@@ -42,24 +61,20 @@ export default function About() {
             asset to any project. My proactive and positive attitude, coupled
             with my dedication to producing high-quality work, sets me apart.
           </p>
-          <div className="about__links">
-            <a href="mailto:pcelman@gmail.com" target="_blank">
-              <HiOutlineMailOpen size={30} alt="Link to email" />
+          <p className="about__bold">
+            <a
+              href={cv}
+              target="_blank"
+              rel="noopener noreferrer"
+              download="Paula_Celman_CV.pdf"
+              className="download__cv"
+            >
+              Download CV
             </a>
-            <a href="https://github.com/pcelman" target="_blank">
-              {" "}
-              <GoMarkGithub size={30} alt="Link to GitHub profile" />
-            </a>
-            <a href="https://www.linkedin.com/in/paula-celman/" target="_blank">
-              <BsLinkedin size={30} alt="Link to LinkedIn profile" />
-            </a>
-            <a href="https://www.linkedin.com/in/paula-celman/" target="_blank">
-            <div className="about__cv">Download CV</div>
-            </a>
-          </div>
+          </p>
         </div>
-        {/* </section> */}
-        <section className="about__skills">
+        {/* skills --------------- */}
+        <div className="about__skills">
           <div className="about__skills__title">Skills</div>
           <span className="line"></span>
           <ul className="skills__content">
@@ -227,8 +242,10 @@ export default function About() {
           </ul>
 
           {/* skills end ---------------------  */}
-        </section>
+        </div>
       </div>
-    </main>
+    </div>
   );
-}
+};
+
+export default About;
