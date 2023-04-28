@@ -30,7 +30,7 @@ export default function About() {
       <div className="about__container">
         {/* <section className="about__presentation"> */}
         <figure className="about_image">
-          <img src={image} alt="" />
+          <img src={image} alt="" width="350px"/>
         </figure>
         <div className="about__secondcol">
           <p className="about__paragraph">
@@ -53,180 +53,175 @@ export default function About() {
             <a href="https://www.linkedin.com/in/paula-celman/" target="_blank">
               <BsLinkedin size={30} alt="Link to LinkedIn profile" />
             </a>
-            <a href="https://www.linkedin.com/in/paula-celman/" target="_blank">
+            <a
+              href={cv}
+              target="_blank"
+              rel="noopener noreferrer"
+              download="Paula_Celman_CV.pdf"
+            >
             <div className="about__cv">Download CV</div>
             </a>
           </div>
         </div>
-        {/* </section> */}
+   {/* <---------------Skills------------> */}
         <section className="about__skills">
           <div className="about__skills__title">Skills</div>
           <span className="line"></span>
           <ul className="skills__content">
             <li className="skills__item">
-              <div>JavaScript</div>
-              <a
+              <div className="skills__name">JavaScript</div>
+              {/* <a
                 href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
                 target="_blank"
                 rel="noreferrer noopener"
               >
+                  </a> */}
                 <IoLogoJavascript
                   size={35}
                   className="skills__icon"
                   alt="Link to Javascript"
                 />
-              </a>
             </li>
 
             <li className="skills__item">
-              <div>
+              <div className="skills__name">
                 React & <br /> React Native
               </div>
-              <a
+              {/* <a
                 href="https://reactjs.org/"
                 target="_blank"
                 rel="noreferrer noopener"
-              >
+                >
+                  </a> */}
                 <RiReactjsFill
                   size={35}
                   className="skills__icon"
                   alt="Link to React icon"
                 />
-              </a>
             </li>
             <li className="skills__item">
-              <div>Figma</div>
-              <a
+              <div className="skills__name">Figma</div>
+              {/* <a
                 href="https://www.figma.com/blog/figma-on-figma-how-we-built-figma-dot-coms-design-system/"
                 target="_blank"
                 rel="noreferrer noopener"
               >
+                  </a> */}
                 <FiFigma
                   size={35}
                   className="skills__icon"
                   alt="Link to Figma"
                 />
-              </a>
             </li>
             <li className="skills__item">
-              <div>CSS</div>
-              <a
+                <div className="skills__name">CSS</div>
+              {/* <a
                 href="https://www.w3schools.com/css/"
                 target="_blank"
                 rel="noreferrer noopener"
-              >
+                >
+                  </a> */}
                 <FaCss3Alt
                   size={35}
                   className="skills__icon"
                   alt="Link to CSS"
                 />
-              </a>
             </li>
             <li className="skills__item">
-              <div>Tailwind</div>
               <a
                 href="https://tailwindui.com/documentation"
                 target="_blank"
                 rel="noreferrer noopener"
-              >
+                >
+                  <div className="skills__name">Tailwind</div>
+              </a>
                 <SiTailwindcss
                   size={35}
                   className="skills__icon"
                   alt="Link to Tailwind"
                 />
-              </a>
             </li>
             <li className="skills__item">
-              <div>Bootstrap</div>
               <a
                 href="https://alaskan-odyssey.vercel.app/"
                 target="_blank"
                 rel="noreferrer noopener"
-              >
+                >
+                  <div className="skills__name">Bootstrap</div>
+              </a>
                 <SiBootstrap
                   size={35}
                   className="skills__icon"
-                  alt="Link to Bootstrap"
+                  alt="Link to a Bootstrap project"
                 />
-              </a>
             </li>
             <li className="skills__item">
-              <div>MaterialUI</div>
               <a
                 href="https://mytodolist-six.vercel.app/"
                 target="_blank"
                 rel="noreferrer noopener"
-              >
+                >
+                  <div className="skills__name">MaterialUI</div>
+              </a>
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg"
                   height="40px"
                 />
-              </a>
             </li>
             <li className="skills__item">
               <div>NodeJs</div>
-              <a
+              {/* <a
                 href="https://nodejs.org/en/docs/"
                 target="_blank"
                 rel="noreferrer noopener"
-              >
+              > */}
                 <GrNode size={35} className="skills__icon" alt="Link to Node" />
-              </a>
+              {/* </a> */}
             </li>
             <li className="skills__item">
               <div>Express</div>
-              <a
+              {/* <a
                 href="https://expressjs.com/"
                 target="_blank"
                 rel="noreferrer noopener"
-              >
+              > */}
                 <SiExpress
                   size={35}
                   className="skills__icon"
                   alt="Link to Express"
                 />
-              </a>
+              {/* </a> */}
             </li>
             <li className="skills__item">
               <div>Sequelize</div>
-              <a
+              {/* <a
                 href="https://sequelize.org/"
                 target="_blank"
                 rel="noreferrer noopener"
-              >
+              > */}
                 <SiSequelize
                   size={35}
                   className="skills__icon"
                   alt="Link to Sequelize"
                 />
-              </a>
+              {/* </a> */}
             </li>
             <li className="skills__item">
-              <div>Git</div>
-              <a
+              {/* <a
                 href="https://git-scm.com/doc"
                 target="_blank"
                 rel="noreferrer noopener"
-              >
+              > */}
+              <div  className="skills__name">Git</div>
+              {/* </a> */}
                 <FaGitAlt
                   size={35}
                   className="skills__icon"
                   alt="Link to Git"
                 />
-              </a>
             </li>
-            {/* <li className="skills__item">
-              <div>Scrum</div>
-              <a
-                href="https://www.scrum.org/forum/scrum-forum/14437/agile-and-documentation"
-                target="_blank"
-              >
-                <DiScrum size={35} className="skills__icon" alt="Link to Scrum" />
-              </a>
-            </li> */}
           </ul>
-
-          {/* skills end ---------------------  */}
+         {/* <------------------Skills end --------------------->  */}
         </section>
       </div>
     </main>

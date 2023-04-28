@@ -14,19 +14,14 @@
 }
 
 .about__container {
+  margin: 0 auto;
   width: 80%;
-  margin: 20px auto;
   gap: 90px;
   display: grid;
   grid-template-areas:
     "img text"
     "skills skills";
   align-items: center;
-}
-
-.about__presentation {
-  margin-top: 120px;
-  gap: 70px;
 }
 
 .about__image {
@@ -41,21 +36,25 @@
 }
 
 .about__paragraph {
+  padding-top: 80px;
   grid-area: text;
   min-width: 300px;
   color: rgb(9, 10, 10);
 }
 
 .about__links {
+  margin-top: 40px;
   display: flex;
   justify-content: center;
-  margin-top: 40px;
 }
 
 .about__links a {
   padding: 1.6rem;
   color: var(--butter);
   color: rgb(63, 62, 62);
+  transition-property: color;
+  transition-duration: 0.5s;
+  text-decoration: none;
 }
 
 .about__links a:hover {
@@ -69,8 +68,17 @@
 
 .about__cv {
   padding: 10px;
-  border: rgb(83, 82, 82) solid 2px;
+  border: rgb(83, 82, 82) solid 1px;
   border-radius: 10px;
+  font-size: 1rem;
+  transition-property: color;
+  transition-duration: 0.5s;
+  text-decoration: none;
+}
+
+.about__cv:hover {
+  color: var(--accent-color);
+  border: var(--accent-color) solid 2px;
 }
 
 .about__skills {
@@ -99,6 +107,16 @@
   color: rgb(63, 62, 62);
 }
 
+.skills__name {
+    color: rgb(48, 47, 47);
+    transition-property: color;
+    transition-duration: 0.5s;
+}
+
+.skills__name:hover {
+    color: var(--accent-color);
+}
+
 .skills__item div {
   text-align: center;
 }
@@ -106,11 +124,14 @@
 .skills__icon {
   margin-top: 0.8;
   color: rgb(48, 47, 47);
+  /* transition-property: color;
+  transition-duration: 0.5s; */
+  text-decoration: none;
 }
 
-.skills__icon:hover {
+/* .skills__icon:hover {
   color: var(--accent-color);
-}
+} */
 .download__cv {
   font-size: 1.3rem;
   text-decoration: underline;
@@ -130,7 +151,7 @@
       "img"
       "text"
       "skills";
-      /* justify-content: center; */
+    /* justify-content: center; */
   }
   .about__image {
     margin-top: 160px;
