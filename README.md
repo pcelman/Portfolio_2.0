@@ -28,7 +28,7 @@ I welcome any suggestions or feedback you may have regarding my portfolio. If yo
 
 ## Usage
 
-You can view the live version of my portfolio [here](https://pcelman.github.io/Portfolio_2.0/). 
+You will soon be able to view the live version of my portfolio.
 Alternatively, you can clone the repository and run it locally on your machine:
 
 ```sh
