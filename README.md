@@ -1,0 +1,36 @@
+# My Portfolio - v2
+
+This is the second version of my personal portfolio. It showcases my skills, projects, and experiences as a developer.
+
+## Features
+
+- Responsive design that looks great on desktop, tablet, and mobile devices.
+- Clear and concise descriptions of my projects, with links to live demos and source code repositories.
+- A section about my skills, including programming languages, frameworks, and tools.
+- A section about my experiences, including education, work, and personal projects.
+- A contact form that allows visitors to send me a message directly from the website.
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+- React
+- Vite
+- Node.js
+
+## Suggestions
+
+I welcome any suggestions or feedback you may have regarding my portfolio. If you notice any issues or have ideas for improvements, please feel free to open an issue or submit a pull request on GitHub.
+
+
+## Usage
+
+You can view the live version of my portfolio at [example.com](https://pcelman.github.io/Portfolio_2.0/). 
+Alternatively, you can clone the repository and run it locally on your machine:
+
+```sh
+git clone https://github.com/yourusername/your-portfolio.git
+cd your-portfolio
+npm install
+npm start
