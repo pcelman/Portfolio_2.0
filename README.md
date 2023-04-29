@@ -32,7 +32,7 @@ You can view the live version of my portfolio [here](https://pcelman.github.io/P
 Alternatively, you can clone the repository and run it locally on your machine:
 
 ```sh
-git clone https://github.com/yourusername/your-portfolio.git
-cd your-portfolio
+git clone https://github.com/pcelman/Portfolio_2.0.git
+cd Portfolio_2.0
 npm install
-npm start
+npm run dev
