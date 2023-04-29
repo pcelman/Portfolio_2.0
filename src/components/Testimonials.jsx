@@ -3,14 +3,12 @@ import { BsLinkedin } from "react-icons/bs";
 import testimonials__jesus from "../images/testimonials__jesus.png";
 import testimonials__santy from "../images/testimonials__santy.png";
 import testimonials__mario from "../images/testimonials__mario.png";
-import "../styles/Testimonials.css";
+import "../styles/testimonials.css";
 
 const Testimonials = () => {
   return (
     <div className="testimonials" id="testimonials">
       <div className="testimonials__container">
-        {/* <h2 className="testimonials__title">Testimonials</h2> */}
-        {/* <span className="line"></span> */}
         <div className="testimonials__content">
           <div className="testimonials__card">
             <div>

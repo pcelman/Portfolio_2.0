@@ -5,11 +5,9 @@ import "../styles/demo.css";
 const Demo = () => {
   return (
     <div className="demo" id="demo">
-      {/* <h2>Project demos</h2> */}
-      {/* <span className="line"></span> */}
       <br />
       <br />
-      <div className="container">
+      <div className="demo__card">
         <div className="demo__text">
           <p>Group project presentation</p>
           <h3 className="demo__project">Arquihub</h3>
@@ -36,7 +34,7 @@ const Demo = () => {
         </div>
       </div>
       <br /> <br /> <br />
-      <div className="container">
+      <div className="demo__card">
         <div className="demo__text">
           <p>First video</p>
           <h3 className="demo__project">Videogames | API request</h3>
@@ -59,7 +57,7 @@ const Demo = () => {
         </div>
       </div>
       <br /> <br /> <br />
-      <div className="container">
+      <div className="demo__card">
         <div className="demo__text">
           <p>Second video</p>
           <h3 className="demo__project">Videogames | Render</h3>

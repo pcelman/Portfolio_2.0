@@ -16,6 +16,7 @@
 .about__container {
   margin: 0 auto;
   width: 80%;
+  max-width: 1240px;
   gap: 90px;
   display: grid;
   grid-template-areas:
@@ -33,13 +34,18 @@
   grid-area: text;
   display: flex;
   flex-direction: column;
+  align-content: center;
+  align-items: center;
+
 }
 
 .about__paragraph {
   padding-top: 80px;
   grid-area: text;
   min-width: 300px;
+  max-width: 450px;
   color: rgb(9, 10, 10);
+text-align: center;
 }
 
 .about__links {
@@ -86,7 +92,7 @@
 }
 
 .about__skills__title {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: bold;
   text-align: center;
   color: rgb(63, 62, 62);
@@ -94,7 +100,7 @@
 
 .skills__content {
   width: 100%;
-  margin: 4rem 0;
+  margin: 2.5rem 0;
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
@@ -109,12 +115,6 @@
 
 .skills__name {
     color: rgb(48, 47, 47);
-    transition-property: color;
-    transition-duration: 0.5s;
-}
-
-.skills__name:hover {
-    color: var(--accent-color);
 }
 
 .skills__item div {
@@ -124,14 +124,9 @@
 .skills__icon {
   margin-top: 0.8;
   color: rgb(48, 47, 47);
-  /* transition-property: color;
-  transition-duration: 0.5s; */
   text-decoration: none;
 }
 
-/* .skills__icon:hover {
-  color: var(--accent-color);
-} */
 .download__cv {
   font-size: 1.3rem;
   text-decoration: underline;

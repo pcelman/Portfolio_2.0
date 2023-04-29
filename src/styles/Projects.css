@@ -3,7 +3,7 @@
   background-color: rgb(250, 241, 230);
 }
 
-.projects .container {
+.projects__container {
   width: 100%;
   margin: 4rem auto;
   padding: 4rem 0rem;
@@ -15,7 +15,7 @@
 }
 
 
-.projects .container .content {
+.projects__container .content {
   max-width: 1024px;
   width: 80%;
   margin: 4rem auto;
@@ -27,7 +27,7 @@
   align-items: stretch;
 }
 
-.project {
+.projects__card {
   margin: auto;
   padding: 2rem 2rem 4rem 2rem;
   border: 1px solid #eee;
@@ -36,29 +36,27 @@
   flex-basis: 20rem;
   display: flex;
   flex-direction: column;
-  /* flex-wrap: wrap; */
   justify-content: space-between;
-  /* flex: .5; */
 }
 
-.project__image {
+.projects__image {
   margin: auto;
 }
 
-.project__title {
+.projects__title {
   padding-top: 1rem;
   font-size: 1.6rem;
   text-align: center;
 }
 
-.project__paragraph {
+.projects__paragraph {
   padding-top: 20px;
   color: #787878;
   font-size: 1.1rem;
   margin: 20px;
 }
 
-.project__icon-center {
+.projects__icon-center {
   padding-top: 20px;
   display: flex;
   justify-content: space-evenly;
@@ -68,7 +66,7 @@
   text-decoration: none;
 }
 
-.project a {
+.projects a {
   display: flex;
   color: rgb(134, 134, 134);
   transition-property: color;
@@ -76,15 +74,15 @@
   text-decoration: none;
 }
 
-.project__icon:hover {
+.projects__icon:hover {
   color: var(--accent-color);
 }
 
-.project__icon-center-github:hover {
+.projects__icon-center-github:hover {
   color: var(--accent-color);
 }
 
-.project__icon-center-world:hover {
+.projects__icon-center-world:hover {
   color: var(--accent-color);
 }
 
@@ -99,27 +97,27 @@
     width: 100%;
   }
 
-  .project {
+  .projects {
     margin: 1rem;
   }
 
-  .project__paragraph {
+  .projects__paragraph {
     margin: 0rem 0rem;
   }
 
 }
 @media screen and (max-width: 480px) {
-  .project {
+  .projects__card {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .project__img {
+  .projects__img {
     margin-left: -13.5px;
   }
 }
 @media screen and (max-width: 330px) {
-  .project__img {
+  .projects__img {
     margin: auto;
     width: 275px;
   }
