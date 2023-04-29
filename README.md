@@ -1,6 +1,6 @@
 # My Portfolio - v2
 
-This is the second version of my personal portfolio. It showcases my skills, projects, and experiences as a developer.
+This is the second version of my portfolio. It showcases my skills, projects, and experiences as a developer.
 
 <img width="1245" alt="Screenshot 2023-04-29 at 15 00 04" src="https://user-images.githubusercontent.com/100241036/235318088-c31af126-e4e4-4d38-917c-f4400bff4bce.png">
 
