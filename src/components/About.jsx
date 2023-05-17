@@ -16,7 +16,7 @@ import { GrNode } from "react-icons/gr";
 import image from "../images/p1.png";
 import material from "../images/material.svg";
 import cv from "../assets/paulacelman.pdf";
-import "../styles/about.css";
+import "../styles/About.css";
 
 export default function About() {
   return (
