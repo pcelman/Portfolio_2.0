@@ -3,7 +3,7 @@ import { BsLinkedin } from "react-icons/bs";
 import testimonials__jesus from "../images/testimonials__jesus.png";
 import testimonials__santy from "../images/testimonials__santy.png";
 import testimonials__mario from "../images/testimonials__mario.png";
-import "../styles/Testimonials.css";
+import "../styles/testimonials.css";
 
 const Testimonials = () => {
   return (
