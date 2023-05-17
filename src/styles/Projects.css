@@ -7,15 +7,6 @@
   width: 100%;
   margin: 4rem auto;
   padding: 4rem 0rem;
-}
-
-.container__title {
-  font-size: 3rem;
-  text-align: center;
-}
-
-
-.projects__container .content {
   max-width: 1024px;
   width: 80%;
   margin: 4rem auto;
@@ -27,36 +18,40 @@
   align-items: stretch;
 }
 
+
 .projects__card {
-  margin: auto;
+  margin: 0 auto;
   padding: 2rem 2rem 4rem 2rem;
   border: 1px solid #eee;
   border-radius: 8px;
   box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
   flex-basis: 20rem;
   display: flex;
+  width: 90%;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.projects__image {
+.projects__card__image {
   margin: auto;
+  width: 100%;
+  height: 100%;
 }
 
-.projects__title {
+.projects__card__title {
   padding-top: 1rem;
   font-size: 1.6rem;
   text-align: center;
 }
 
-.projects__paragraph {
+.projects__card__paragraph {
   padding-top: 20px;
   color: #787878;
   font-size: 1.1rem;
   margin: 20px;
 }
 
-.projects__icon-center {
+.projects__card__icon-center {
   padding-top: 20px;
   display: flex;
   justify-content: space-evenly;
@@ -66,43 +61,35 @@
   text-decoration: none;
 }
 
-.projects a {
+.projects__card a {
   display: flex;
   color: rgb(134, 134, 134);
   transition-property: color;
   transition-duration: 0.5s;
   text-decoration: none;
+  /* margin-top: auto; */
 }
 
-.projects__icon:hover {
+.projects__card__icon:hover {
   color: var(--accent-color);
 }
 
-.projects__icon-center-github:hover {
+.projects__card__icon-center-github:hover {
   color: var(--accent-color);
 }
 
-.projects__icon-center-world:hover {
+.projects__card__icon-center-world:hover {
   color: var(--accent-color);
-}
-
-.projects .cards span {
-  color: var(--accent-color);
-  font-size: 1rem;
-  font-weight: 700;
 }
 
 @media screen and (max-width: 1000px) {
-  .projects .container {
-    width: 100%;
-  }
 
   .projects {
     margin: 1rem;
   }
 
-  .projects__paragraph {
-    margin: 0rem 0rem;
+  .projects__card__paragraph {
+    margin: 0 0;
   }
 
 }
@@ -117,8 +104,14 @@
   }
 }
 @media screen and (max-width: 330px) {
+  
+  .projects__card {
+    margin: 0 auto ;
+   
+
+  }
   .projects__img {
-    margin: auto;
-    width: 275px;
+    margin: 0 auto;
+    width: 90%;
   }
 }
