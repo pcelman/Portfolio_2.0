@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 import { GoMarkGithub } from "react-icons/go";
 import { BsLinkedin } from "react-icons/bs";
 import { HiOutlineMailOpen } from "react-icons/hi";
-import "../styles/footer.css";
+import "../styles/Footer.css";
 
 const Footer = () => {
   return (
