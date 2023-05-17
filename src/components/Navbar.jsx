@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
-import "../styles/navbar.css";
+import "../styles/Navbar.css";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
