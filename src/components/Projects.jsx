@@ -7,7 +7,7 @@ import projects__arq from "../images/projects__arq.png";
 import projects__fm from "../images/projects__fm.png";
 import projects__vg from "../images/projects__vg.png";
 import projects__pk from "../images/projects__pk.jpeg";
-import "../styles/projects.css";
+import "../styles/Projects.css";
 
 export default function Projects() {
   return (
