@@ -27,7 +27,7 @@ export default function About() {
         </figure>
         <div className="about__secondcol">
           <p className="about__paragraph">
-            <strong>Fullstack Developer &nbsp;</strong>
+            <strong>Frontend Developer &nbsp;</strong>
             with a background in Industrial Design and a Master's degree in Fine
             Arts
             {/* , I bring a unique perspective and set of skills to the table.
