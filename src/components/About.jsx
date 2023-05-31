@@ -10,8 +10,11 @@ import {
     SiSequelize,
 } from "react-icons/si";
 import { GoMarkGithub } from "react-icons/go";
+import { SiMongodb } from "react-icons/si";
 import { BsLinkedin } from "react-icons/bs";
 import { HiOutlineMailOpen } from "react-icons/hi";
+import { BsFillBriefcaseFill } from "react-icons/bs";
+
 import { GrNode } from "react-icons/gr";
 import image from "../images/p1.png";
 import material from "../images/material.svg";
@@ -123,6 +126,15 @@ export default function About() {
             <li className="skills__item">
               <div>Sequelize</div>
               <SiSequelize
+                size={35}
+                className="skills__icon"
+                alt="Link to Sequelize"
+              />
+            </li>
+       
+            <li className="skills__item">
+              <div>MongoDB</div>
+              <SiMongodb
                 size={35}
                 className="skills__icon"
                 alt="Link to Sequelize"
