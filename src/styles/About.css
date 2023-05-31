@@ -95,7 +95,7 @@ text-align: center;
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
-  color: rgb(63, 62, 62);
+  color: #635f5f;;
 }
 
 .skills__content {
@@ -110,11 +110,11 @@ text-align: center;
 .skills__item {
   display: grid;
   justify-items: center;
-  color: rgb(63, 62, 62);
+  color: #787373;
 }
 
 .skills__name {
-    color: rgb(48, 47, 47);
+    color: #787373;
 }
 
 .skills__item div {
@@ -123,7 +123,7 @@ text-align: center;
 
 .skills__icon {
   margin-top: 0.8;
-  color: rgb(48, 47, 47);
+  color: #787373;
   text-decoration: none;
 }
 
