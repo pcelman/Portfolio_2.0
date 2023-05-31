@@ -29,6 +29,7 @@ export default function Projects() {
                 implementing the user interface and styling elements.
               </p>
               <br />
+              <div className="projects__card__icon-center">
               <a
                 href="https://www.figma.com/file/2NzlH6zSqLfxevWvKNVJCU/P-connect?node-id=0%3A1&t=tCm1GvsENAYSyUCP-1"
                 target="_blank"
@@ -36,6 +37,14 @@ export default function Projects() {
               >
                 <FiFigma size={30} className="projects__card__icon" alt="Link to Figma"/>
               </a>
+              <a
+                href="https://github.com/pcelman/Henry-connect"
+                target="_blank"
+                className="projects__card__icon-center"
+              >
+                <GoMarkGithub size={30} className="projects__card__icon" alt="Link to Github"/>
+              </a>
+            </div>
             </div>
           </section>
           <section className="projects__card">
@@ -86,6 +95,7 @@ export default function Projects() {
               >
                 <FiFigma size={30} className="projects__card__icon" alt="Link to Figma"/>
               </a>
+              
             </div>
           </section>
           <section className="projects__card">
