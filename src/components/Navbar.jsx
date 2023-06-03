@@ -49,7 +49,7 @@ const Navbar = () => {
               Projects
             </Link>
           </li>{" "}
-          {/* <li className="nav__item">
+          <li className="nav__item">
             <Link
               to="demo"
               spy={true}
@@ -60,7 +60,7 @@ const Navbar = () => {
             >
               Demos
             </Link>
-          </li> */}
+          </li>
           <li className="nav__item">
             <Link
               to="testimonials"
