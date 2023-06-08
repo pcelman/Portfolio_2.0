@@ -23,7 +23,7 @@ export default function Projects() {
             <div>
               <h2 className="projects__card__title" >HENRYconnect</h2>
               <p className="projects__card__paragraph">
-                I was part of a team that developed Henry Connect, a
+                Part of a team that developed Henry Connect, a
                 location-based chat application built with React Native. My role
                 focused on the front-end development and design, including
                 implementing the user interface and styling elements.
@@ -129,7 +129,7 @@ export default function Projects() {
             <div>
               <h2 className="projects__card__title">Pokemon</h2>
               <p  className="projects__card__paragraph">
-                I worked independently on a personal project creating a website
+                Worked independently on a personal project creating a website
                 dedicated to Pokemon. The project involved using Express for
                 routing, Sequelize and Postgres for the database, and React and
                 Redux for the front-end. I utilized an API to gather information
