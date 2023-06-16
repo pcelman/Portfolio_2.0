@@ -1,6 +1,6 @@
 import React from "react";
 
-import "../styles/Demo.css";
+import "../styles/demo.css";
 
 const Demo = () => {
   return (
@@ -9,7 +9,7 @@ const Demo = () => {
       <br />
       <div className="demo__card">
         <div className="demo__text">
-          <p>Group project presentation</p>
+          {/* <p className="demo__title">Group project presentation</p> */}
           <h3 className="demo__project">Arquihub</h3>
           <p className="demo__paragraph">
             In this video, I provide an in-depth look at our Aquihub project,
@@ -36,7 +36,7 @@ const Demo = () => {
       <br /> <br /> <br />
       <div className="demo__card">
         <div className="demo__text">
-          <p>First video</p>
+          {/* <p>First video</p> */}
           <h3 className="demo__project">Videogames | API request</h3>
           <p className="demo__paragraph">
             In the video, I go through the process of how I retrieved the
@@ -59,7 +59,7 @@ const Demo = () => {
       <br /> <br /> <br />
       <div className="demo__card">
         <div className="demo__text">
-          <p>Second video</p>
+          {/* <p>Second video</p> */}
           <h3 className="demo__project">Videogames | Render</h3>
           <p className="demo__paragraph">
             In the second video, I demonstrate how I utilized React and Redux to
