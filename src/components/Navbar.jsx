@@ -10,8 +10,8 @@ const Navbar = () => {
   const closeMenu = () => setClick(false);
 
   return (
-    <div className="header">
-      <nav className="navbar">
+    <div className="navbar">
+      <nav className="navbar__container">
 
         <a href="/">
           <h3 className="navbar__name">Paula Celman</h3>

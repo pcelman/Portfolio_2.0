@@ -1,90 +1,120 @@
 .about {
-  background-color: #cb8a8a;
+  background-image: linear-gradient(
+    to bottom,
+    #874669,
+    #ab6d78,
+    #c89891,
+    #e0c5b6,
+    #faf1e6
+  );
   margin: auto;
+  margin-top: 90px;
   width: 100%;
   color: var(--butter);
 }
 
-.about .container {
-  width: 1240px;
-  margin: auto;
+.about__container {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 1240px;
+  gap: 90px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+    "img text"
+    "skills skills";
+  align-items: center;
 }
 
-/* .about__image {
-  background-image: url("../images/about__pcv.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position:  center center;
-  width: 100%;
-} */
-
-.about__img-sm {
-  display: none;
+.about__image {
+  position: relative;
+  grid-area: img;
 }
 
-.about__img-md {
-  display: none;
-} 
-
-.about h2 {
-  font-size: 3rem;
-  padding-top: 4rem;
-}
-
-.about .col-2 {
+.about__secondcol {
+  grid-area: text;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-content: center;
   align-items: center;
-  padding: 3rem 3rem 0 3rem;
+
 }
 
-.about .col-2 p {
-  color: rgb(48, 47, 47);
+.about__paragraph {
+  padding-top: 80px;
+  grid-area: text;
+  min-width: 300px;
+  max-width: 450px;
+  color: rgb(9, 10, 10);
+text-align: center;
 }
 
-.about__text {
-  font-size: 1.3rem;
+.about__links {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
 }
 
-.about__bold {
-  padding-bottom: 2rem;
-  font-size: 1.8rem;
-  font-style: italic;
-  font-weight: 600;
+.about__links a {
+  padding: 1.6rem;
+  color: var(--butter);
+  color: rgb(63, 62, 62);
+  transition-property: color;
+  transition-duration: 0.5s;
+  text-decoration: none;
 }
 
-/* .about__bold::after {
-font-family: "Font Awesome 5 Free";
-content: " \f35d";
-font-weight: 900;
-font-size: .7em;
-} */
-
-.about .col-2 p:first-of-type {
-  margin: 2rem 0;
+.about__links a:hover {
+  color: var(--accent-color);
 }
 
-.skills {
-  font-size: 3rem;
+.about__item .active {
+  padding-bottom: 12px;
+  border-bottom: 3px solid var(--accent-color);
+}
+
+.about__cv {
+  padding: 10px;
+  border: rgb(83, 82, 82) solid 1px;
+  border-radius: 10px;
+  font-size: 1rem;
+  transition-property: color;
+  transition-duration: 0.5s;
+  text-decoration: none;
+}
+
+.about__cv:hover {
+  color: var(--accent-color);
+  border: var(--accent-color) solid 2px;
+}
+
+.about__skills {
+  grid-area: skills;
+}
+
+.about__skills__title {
+  font-size: 2rem;
   font-weight: bold;
+  text-align: center;
+  color: #635f5f;;
 }
 
 .skills__content {
   width: 100%;
-  margin: 4rem 0;
+  margin: 2.5rem 0;
   display: flex;
   flex-wrap: wrap;
-  grid-gap: 2rem;
+  gap: 2rem;
   justify-content: center;
 }
 
 .skills__item {
   display: grid;
   justify-items: center;
-  color: rgb(63, 62, 62);
+  color: #787373;
+}
+
+.skills__name {
+    color: #787373;
 }
 
 .skills__item div {
@@ -93,12 +123,10 @@ font-size: .7em;
 
 .skills__icon {
   margin-top: 0.8;
-  color: rgb(48, 47, 47);
+  color: #787373;
+  text-decoration: none;
 }
 
-.skills__icon:hover {
-  color: var(--accent-color);
-}
 .download__cv {
   font-size: 1.3rem;
   text-decoration: underline;
@@ -109,63 +137,22 @@ font-size: .7em;
 }
 
 @media screen and (max-width: 940px) {
-  .about .container {
-    grid-template-columns: 1fr;
+  .about .about__container {
+    width: 90%;
   }
 
-  .about .container {
-    width: 100%;
+  .about__container {
+    grid-template-areas:
+      "img"
+      "text"
+      "skills";
+    /* justify-content: center; */
   }
- 
-  .about__img {
-    display: none;
-  }
-  
-  .about__img-md {
+  .about__image {
+    margin-top: 160px;
     display: block;
-    margin-top: 5rem;
     padding: 0rem;
     width: 70vw;
     justify-self: center;
-  }
-
-  .about__img-sm {
-    display: none;
-  } 
-
-  /* .about__image {
-    background-image: url("../images/about__pcv-574.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position:  center center;
-    width: 100%;
-  } */
-
-  p {
-    margin: 3rem;
-  }
-
-  .about__text {
-    padding-left: 3rem;
-    padding-right: 3rem;
-    font-size: 1.3rem;
-  }
-
-  .about .container .col-2 {
-    padding: 0;
-  }
-
-  .about button {
-    margin-bottom: 1rem;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .about__image {
-    background-image: url("../images/about__pcv-300.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position:  center center;
-    width: 100%;
   }
 }

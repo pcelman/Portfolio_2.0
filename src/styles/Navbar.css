@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inria+Serif:wght@300&display=swap');
 
-.header {
+.navbar {
   position: fixed;
   height: 90px;
   width: 100%;
@@ -12,7 +12,7 @@
   background-color: #874669;
 }
 
-.header .navbar {
+.navbar__container {
   margin: auto;
   padding: 0 1rem;
   display: flex;
@@ -22,31 +22,36 @@
   height: 100%;
 }
 
-.header .nav__menu a {
-  color: var(--butter);
-}
-
-.header .navbar__name {
+.navbar__name {
   margin-left: 20px;
   width: 250px;
-  font-family: 'Inria Serif', serif;
+  font-weight: 300;
   color: var(--butter);
   font-size: 35px;
+  letter-spacing: 1.9px;
 }
 
-.header .nav__menu {
+.nav__menu a {
+  color: var(--butter);
+}
+
+.nav__menu {
   display: flex;
 }
 
-.header .nav__item {
+.nav__item {
   padding: 1rem;
   font-weight: 500;
+  transition-property: color;
+  transition-duration: 0.5s;
+  text-decoration: none;
 }
 
-.header .nav__item a:hover {
+.nav__item a:hover {
   padding-bottom: 12px;
   border-bottom: 3px solid var(--accent-color);
 }
+
 .nav__item .active {
   padding-bottom: 12px;
   border-bottom: 3px solid var(--accent-color);
@@ -57,12 +62,12 @@
 }
 
 @media screen and (max-width: 940px) {
-  .header {
+  .navbar {
     max-width: 100%;
     background-color: #874669;
   }
 
-  .header .navbar {
+ .navbar__container {
     max-width: 100%;
   }
 
@@ -93,7 +98,6 @@
 
   .navbar__name {
     width: 150px;
-    /* margin-left: 40px; */
     padding-left: 40px;
   }
 }
