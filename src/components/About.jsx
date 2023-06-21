@@ -14,7 +14,7 @@ import {
   SiSequelize,
 } from "react-icons/si";
 import { GrNode } from "react-icons/gr";
-import cv from "../assets/paulacelman.pdf";
+import cv from "../assets/paulacelman_spanish.pdf";
 import "../styles/About.css";
 
 const About = () => {
