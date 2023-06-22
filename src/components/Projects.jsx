@@ -178,6 +178,7 @@ export default function Projects() {
               routing, Sequelize and Postgres for the database, and React and
               Redux for the front-end. I utilized an API to gather information
               and display it on the website.
+              
             </p>
             <br /> <br />
             <a
