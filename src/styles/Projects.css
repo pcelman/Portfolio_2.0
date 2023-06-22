@@ -4,11 +4,10 @@
 }
 
 .projects__container {
-  width: 100%;
+  width: 80%;
   margin: 4rem auto;
   padding: 4rem 0rem;
   max-width: 1024px;
-  width: 80%;
   margin: 4rem auto;
   display: flex;
   flex-wrap: wrap;
@@ -27,7 +26,7 @@
   box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
   flex-basis: 20rem;
   display: flex;
-  width: 90%;
+  width: 80%;
   flex-direction: column;
   justify-content: space-between;
 }
