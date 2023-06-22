@@ -5,7 +5,7 @@ import { BiWorld } from "react-icons/bi";
 import projects__hc from "../images/projects__hc.png";
 import projects__arq from "../images/projects__arq.png";
 import projects__fm from "../images/projects__fm.png";
-import projects__vg from "../images/projects__vg.png";
+import projects__vg from "../images/projects__vg.jpg";
 import projects__pk from "../images/projects__pk.jpeg";
 import "../styles/Projects.css";
 
@@ -142,16 +142,24 @@ export default function Projects() {
               API.
             </p>
             <a
-              href="https://github.com/pcelman/Videogames"
+              href="https://github.com/pcelman/Videogames-front"
               target="_blank"
               className="projects__card__icon-center"
             >
+                     <a href="https://my-videogame.vercel.app/" target="_blank">
+                <BiWorld
+                  size={30}
+                  className="projects__card__icon-center-world"
+                  alt="Link to the deploy of My Videogame"
+                />
+              </a>
               <GoMarkGithub
                 size={30}
                 className="projects__card__icon"
                 alt="Link to Github"
               />
             </a>
+
           </div>
         </section>
         <section className="projects__card">
