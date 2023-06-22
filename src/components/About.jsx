@@ -14,8 +14,9 @@ import { SiMongodb } from "react-icons/si";
 import { BsLinkedin } from "react-icons/bs";
 import { HiOutlineMailOpen } from "react-icons/hi";
 import { BsFillBriefcaseFill } from "react-icons/bs";
-
 import { GrNode } from "react-icons/gr";
+import image from "../images/p1.png"
+import material from "../images/material.svg"
 import cv from "../assets/paulacelman.pdf";
 import "../styles/About.css";
 
