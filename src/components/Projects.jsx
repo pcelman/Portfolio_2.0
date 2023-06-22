@@ -104,9 +104,8 @@ export default function Projects() {
           <div>
             <h2 className="projects__card__title">Videogames</h2>
             <p className="projects__card__paragraph">
-              I was the sole developer for a personal project creating a video
-              game website. My responsibilities included all aspects of the
-              project, from API requests to the final rendering and
+              Personal project. My responsibilities included all aspects of the
+              project, from API requests to the rendering and
               functionality of the website. I utilized Express for routing,
               Sequelize and Postgres for the database, and React and Redux for
               the front-end. I sourced the information for the website from an
@@ -147,8 +146,7 @@ export default function Projects() {
               Part of the front-end team for a foundation based in
               Colombia. The goal of the project was to create a website that
               provided a platform for women to access news, posts, and job
-              opportunities. My role involved designing the user interface and
-              the website's overall aesthetic.
+              opportunities. 
             </p>
             <a
               href="https://www.figma.com/file/4R1YzisyHOhWE0j228Qk2V/P-Fundacion?t=tCm1GvsENAYSyUCP-1"
@@ -175,7 +173,7 @@ export default function Projects() {
           <div>
             <h2 className="projects__card__title">Pokemon</h2>
             <p className="projects__card__paragraph">
-              Worked independently on a personal project creating a website
+              Worked independently creating a website
               dedicated to Pokemon. The project involved using Express for
               routing, Sequelize and Postgres for the database, and React and
               Redux for the front-end. I utilized an API to gather information
