@@ -75,6 +75,13 @@ export default function Projects() {
             </p>
             <br />
             <div className="projects__card__icon-center">
+            <a href="https://arquihub.vercel.app/" target="_blank">
+                <BiWorld
+                  size={30}
+                  className="projects__card__icon-center-world"
+                  alt="Link to the deploy of Arquihub"
+                />
+              </a>
               <a href="https://github.com/pcelman/ARQUIHUB" target="_blank">
                 <GoMarkGithub
                   size={30}
@@ -82,44 +89,8 @@ export default function Projects() {
                   alt="Link to Github"
                 />
               </a>
-              <a href="https://arquihub.vercel.app/" target="_blank">
-                <BiWorld
-                  size={30}
-                  className="projects__card__icon-center-world"
-                  alt="Link to the deploy of Arquihub"
-                />
-              </a>
+         
             </div>
-          </div>
-        </section>
-        <section className="projects__card">
-          <img
-            className="projects__card__image"
-            src={projects__fm}
-            alt="Fundacion Mujer project"
-            width="300px"
-            height="250px"
-          />
-          <div>
-            <h2 className="projects__card__title">Fundacion Mujer</h2>
-            <p className="projects__card__paragraph">
-              Part of the front-end team for a foundation based in
-              Colombia. The goal of the project was to create a website that
-              provided a platform for women to access news, posts, and job
-              opportunities. My role involved designing the user interface and
-              the website's overall aesthetic.
-            </p>
-            <a
-              href="https://www.figma.com/file/4R1YzisyHOhWE0j228Qk2V/P-Fundacion?t=tCm1GvsENAYSyUCP-1"
-              target="_blank"
-              className="projects__card__icon-center"
-            >
-              <FiFigma
-                size={30}
-                className="projects__card__icon"
-                alt="Link to Figma"
-              />
-            </a>
           </div>
         </section>
         <section className="projects__card">
@@ -162,6 +133,37 @@ export default function Projects() {
 
           </div>
         </section>
+        <section className="projects__card">
+          <img
+            className="projects__card__image"
+            src={projects__fm}
+            alt="Fundacion Mujer project"
+            width="300px"
+            height="250px"
+          />
+          <div>
+            <h2 className="projects__card__title">Fundacion Mujer</h2>
+            <p className="projects__card__paragraph">
+              Part of the front-end team for a foundation based in
+              Colombia. The goal of the project was to create a website that
+              provided a platform for women to access news, posts, and job
+              opportunities. My role involved designing the user interface and
+              the website's overall aesthetic.
+            </p>
+            <a
+              href="https://www.figma.com/file/4R1YzisyHOhWE0j228Qk2V/P-Fundacion?t=tCm1GvsENAYSyUCP-1"
+              target="_blank"
+              className="projects__card__icon-center"
+            >
+              <FiFigma
+                size={30}
+                className="projects__card__icon"
+                alt="Link to Figma"
+              />
+            </a>
+          </div>
+        </section>
+    
         <section className="projects__card">
           <img
             className="projects__card__image"
