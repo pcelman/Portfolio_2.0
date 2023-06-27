@@ -17,7 +17,7 @@ import { BsFillBriefcaseFill } from "react-icons/bs";
 import { GrNode } from "react-icons/gr";
 import image from "../images/p1.png"
 import material from "../images/material.svg"
-import cv from "../assets/paulacelman_spanish.pdf";
+import cv from "../assets/paulacelman.pdf";
 import "../styles/About.css";
 
 export default function About() {
