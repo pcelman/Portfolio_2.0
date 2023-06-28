@@ -6,7 +6,7 @@ import projects__hc from "../images/projects__hc.png";
 import projects__arq from "../images/projects__arq.png";
 import projects__fm from "../images/projects__fm.png";
 import projects__vg from "../images/projects__vg.jpg";
-import projects__pk from "../images/projects__pk.jpeg";
+import projects__pk from "../images/projects__pk.png";
 import "../styles/Projects.css";
 
 export default function Projects() {
@@ -29,6 +29,7 @@ export default function Projects() {
               front-end development and design, including implementing the user
               interface and styling elements.
             </p>
+            <br />
             <br />
             <div className="projects__card__icon-center">
               <a
@@ -73,6 +74,7 @@ export default function Projects() {
               design and aesthetics of the application, and adding
               functionalities.
             </p>
+            <br />
             <br />
             <div className="projects__card__icon-center">
             <a href="https://arquihub.vercel.app/" target="_blank">
@@ -137,8 +139,8 @@ export default function Projects() {
             className="projects__card__image"
             src={projects__fm}
             alt="Fundacion Mujer project"
-            width="300px"
             height="250px"
+             width="300px"
           />
           <div>
             <h2 className="projects__card__title">Fundacion Mujer</h2>
@@ -148,6 +150,12 @@ export default function Projects() {
               provided a platform for women to access news, posts, and job
               opportunities. 
             </p>
+            <br/>
+            <br/>
+            <br />
+            <br/>
+            <br/>
+
             <a
               href="https://www.figma.com/file/4R1YzisyHOhWE0j228Qk2V/P-Fundacion?t=tCm1GvsENAYSyUCP-1"
               target="_blank"
