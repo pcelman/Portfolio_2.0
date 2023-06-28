@@ -9,7 +9,7 @@ const Testimonials = () => {
   return (
     <div className="testimonials" id="testimonials">
       <div className="testimonials__container">
-        <div className="testimonials__content">
+       
           <div className="testimonials__card">
             <div>
               <img
@@ -26,8 +26,11 @@ const Testimonials = () => {
               </p>
             </div>
             <div>
+
+           
+            <div className="testimonials__signature">
               <h2 className="testimonials__name">Jesus Espinel</h2>
-              <p className="testimonials__signature">
+              <p>
                 <a
                   href="https://www.linkedin.com/in/jesus-espinel/"
                   target="_blank"
@@ -38,8 +41,9 @@ const Testimonials = () => {
                   />
                 </a>
               </p>
-              <p className="testimonials__paragraph">Web developer</p>
             </div>
+              <p className="testimonials__paragraph">Web developer</p>
+          </div>
           </div>
           <div className="testimonials__card">
             <div>
@@ -57,9 +61,13 @@ const Testimonials = () => {
                 together.
               </p>
             </div>
-            <div>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <div className="testimonials__signature">
               <h2 className="testimonials__name">Santiago Vega</h2>
-              <p className="testimonials__signature">
+              <p>
                 <a
                   href="https://www.linkedin.com/in/santiago-vega-53970b217/"
                   target="_blank"
@@ -70,8 +78,8 @@ const Testimonials = () => {
                   />
                 </a>
               </p>
-              <p className="testimonials__paragraph">Web developer</p>
             </div>
+              <p className="testimonials__paragraph">Web developer</p>
           </div>
           <div className="testimonials__card">
             <div>
@@ -88,10 +96,12 @@ const Testimonials = () => {
                 significant impact on every project she has been a part of. She is
                 highly responsible and consistently delivers high-quality results.
               </p>
+              <br/>
+              <br/>
             </div>
-            <div>
+            <div className="testimonials__signature">
               <h2 className="testimonials__name">Mario Villalba</h2>
-              <p className="testimonials__signature">
+              <p>
                 <a
                   href="https://www.linkedin.com/in/mario-villalba-8b7136179/"
                   target="_blank"
@@ -102,12 +112,12 @@ const Testimonials = () => {
                   />
                 </a>
               </p>
-              <p className="testimonials__paragraph">Web developer</p>
             </div>
+              <p className="testimonials__paragraph">Web developer</p>
           </div>
         </div>
       </div>
-    </div>
+
   );
 };
 
