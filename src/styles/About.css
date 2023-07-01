@@ -25,9 +25,26 @@
   align-items: center;
 }
 
+.about__figure {
+  display: flex;
+
+}
 .about__image {
   position: relative;
   grid-area: img;
+  z-index: 200;
+}
+
+.about__shape {
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  background-color: #a45f84;
+  position: absolute;
+  width: 300px; 
+  height: 300px;
+  /* top: .3; */
+  left: 39;
+  bottom: 104;
+  z-index: 1; 
 }
 
 .about__secondcol {
