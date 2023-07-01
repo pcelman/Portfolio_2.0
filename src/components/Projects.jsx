@@ -65,8 +65,7 @@ export default function Projects() {
               Worked independently creating a website dedicated to Pokemon. The
               project involved using Express for routing, Sequelize and Postgres
               for the database, and React and Redux for the front-end. I
-              utilized an API to gather information and display it on the
-              website.
+              utilized an API to gather information. Syled with CSS.
             </p>
             <br /> <br />
             <a
@@ -89,7 +88,7 @@ export default function Projects() {
             </a>
           </div>
         </section>
-        
+
         <section className="projects__card">
           <img
             className="projects__card__image"
@@ -104,7 +103,7 @@ export default function Projects() {
               Personal project. My responsibilities included all aspects of the
               project, from API requests to the rendering and functionality of
               the website. I utilized Express for routing, Sequelize and
-              Postgres for the database, and React and Redux for the front-end.
+              Postgres for the database, and React, Redux and CSS for the front-end.
               I sourced the information for the website from an API.
             </p>
             <a
@@ -172,6 +171,9 @@ export default function Projects() {
             </div>
           </div>
         </section>
+        <div className="projects__more">More deployed projects on my &nbsp;
+          <a href="https://github.com/pcelman?tab=repositories">GitHub.</a>
+          </div>
       </div>
     </div>
     // </div>
