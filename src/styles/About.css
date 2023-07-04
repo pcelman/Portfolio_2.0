@@ -25,10 +25,16 @@
   align-items: center;
 }
 
+.about__figure {
+  display: flex;
+}
 .about__image {
   position: relative;
   grid-area: img;
+
 }
+
+
 
 .about__secondcol {
   grid-area: text;

@@ -15,7 +15,7 @@ import { BsLinkedin } from "react-icons/bs";
 import { HiOutlineMailOpen } from "react-icons/hi";
 import { BsFillBriefcaseFill } from "react-icons/bs";
 import { GrNode } from "react-icons/gr";
-import image from "../images/po.png"
+import image from "../images/p1.png"
 import material from "../images/material.svg"
 import cv from "../assets/paulacelman.pdf";
 import "../styles/About.css";
@@ -24,9 +24,8 @@ export default function About() {
   return (
     <main className="about" id="home">
       <div className="about__container">
-        <figure className="about__figure">
-          <img className="about__image" src={image} alt="" width="350px" />
-          {/* <div className="about__shape"></div> */}
+        <figure className="about_image">
+          <img src={image} alt="" width="350px" />
         </figure>
         <div className="about__secondcol">
           <p className="about__paragraph">
