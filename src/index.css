@@ -3,6 +3,7 @@
 :root {
   /* colors:  */
   --accent-color: #09bef0;
+  --icon-hover: #025167;
   --accent-dark: #0f9cc3;
   --overlay: rgba(177, 171, 171, 0.7);
   --coral: #cb8a8a;

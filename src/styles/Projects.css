@@ -6,7 +6,7 @@
 .projects__container {
   width: 90%;
   margin: 50px auto;
-  max-width: 1024px;
+  max-width: 2024px;
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
@@ -79,6 +79,8 @@
 
 .projects__more {
 font-size: 20px;
+text-align: center;
+padding: 30px;
 }
 
 @media screen and (max-width: 1000px) {

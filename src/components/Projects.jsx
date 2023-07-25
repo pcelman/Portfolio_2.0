@@ -171,10 +171,10 @@ export default function Projects() {
             </div>
           </div>
         </section>
+      </div>
         <div className="projects__more">More deployed projects on my &nbsp;
           <a href="https://github.com/pcelman?tab=repositories">GitHub.</a>
           </div>
-      </div>
     </div>
     // </div>
   );
