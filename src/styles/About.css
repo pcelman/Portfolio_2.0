@@ -14,18 +14,22 @@
 }
 
 .about__container {
+  height: 90vh;
   margin: 0 auto;
   width: 80%;
   max-width: 2240px;
-  gap: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 .about__intro {
   max-width: 1270px;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 80px;
-  gap: 50px;
+  gap: 150px;
 }
 .about__figure {
   display: flex;
