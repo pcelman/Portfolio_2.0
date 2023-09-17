@@ -1,12 +1,13 @@
 .about {
-  background-image: linear-gradient(
+   background-image: linear-gradient(
     to bottom,
     #874669,
     #ab6d78,
     #c89891,
     #e0c5b6,
     #faf1e6
-  );
+  ); 
+  /* background-color: #9499ee; */
   margin: auto;
   margin-top: 90px;
   width: 100%;
@@ -19,6 +20,7 @@
   width: 80%;
   max-width: 2240px;
   display: flex;
+  /* flex-direction: column; */
   align-items: center;
   justify-content: center;
 }
@@ -91,6 +93,7 @@
   text-decoration: none;
   color: #faf1e6;
   background-color: #635f5f;
+  white-space: nowrap;
 }
 
 .about__cv:hover {
@@ -99,8 +102,8 @@
 }
 
 .about__skills {
-  grid-area: skills;
-  background-color: hsl(33, 67%, 94%, 0.2);
+  /* grid-area: skills; */
+  /* background-color: hsl(33, 67%, 94%, 0.2); */
   padding: 50px;
   border-radius: 20px;
 
@@ -110,26 +113,27 @@
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
-  color: #635f5f;
+  color: #302e2e;
 }
 
 .skills__content {
-  width: 100%;
+  width: 70%;
   margin: 2.5rem 0;
+  padding-top: 250px;
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 3rem;
   justify-content: center;
 }
 
 .skills__item {
   display: grid;
   justify-items: center;
-  color: #787373;
+  color: #595757;
 }
 
 .skills__name {
-  color: #787373;
+  color: #595757;
 }
 
 .skills__item div {
@@ -138,7 +142,7 @@
 
 .skills__icon {
   margin-top: 0.8;
-  color: #787373;
+  color: #454141;
   text-decoration: none;
 }
 
@@ -146,6 +150,7 @@
   font-size: 1.3rem;
   text-decoration: underline;
   color: rgb(76, 76, 77);
+  white-space: nowrap;
 }
 .download__cv:hover {
   color: rgb(110, 110, 243);
@@ -182,9 +187,6 @@
   .about__figure {
     margin: unset;
     gap: unset;
-  }
-  .about__image {
-
   }
 }
 @media screen and (max-width: 425px) {
