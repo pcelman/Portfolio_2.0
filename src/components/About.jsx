@@ -20,7 +20,7 @@ import { BsFillBriefcaseFill } from "react-icons/bs";
 import { GrNode } from "react-icons/gr";
 import image from "../images/po.png";
 import material from "../images/material.svg";
-import cv from "../assets/paulacelman.pdf";
+import cv from "../assets/paulacelman-en.pdf";
 import "../styles/About.css";
 
 export default function About() {
