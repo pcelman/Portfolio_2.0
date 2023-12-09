@@ -101,50 +101,9 @@
   border: var(--accent-color) solid 2px;
 }
 
-.about__skills {
-  /* grid-area: skills; */
-  /* background-color: hsl(33, 67%, 94%, 0.2); */
-  padding: 50px;
-  border-radius: 20px;
 
-}
 
-.about__skills__title {
-  font-size: 2rem;
-  font-weight: bold;
-  text-align: center;
-  color: #302e2e;
-}
 
-.skills__content {
-  width: 70%;
-  margin: 2.5rem 0;
-  padding-top: 250px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 3rem;
-  justify-content: center;
-}
-
-.skills__item {
-  display: grid;
-  justify-items: center;
-  color: #595757;
-}
-
-.skills__name {
-  color: #595757;
-}
-
-.skills__item div {
-  text-align: center;
-}
-
-.skills__icon {
-  margin-top: 0.8;
-  color: #454141;
-  text-decoration: none;
-}
 
 .download__cv {
   font-size: 1.3rem;
