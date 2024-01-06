@@ -1,29 +1,34 @@
-import React from "react";
-import { FiFigma } from "react-icons/fi";
-import { FaCss3Alt, FaGitAlt } from "react-icons/fa";
-import { IoLogoJavascript } from "react-icons/io";
-import { RiReactjsFill } from "react-icons/ri";
-import { FaAngular } from "react-icons/fa";
-import { SiTypescript } from "react-icons/si";
-
-import {
-  SiTailwindcss,
-  SiBootstrap,
-  SiExpress,
-  SiSequelize,
-} from "react-icons/si";
+import React, { useRef } from 'react';
 import { GoMarkGithub } from "react-icons/go";
-import { SiMongodb } from "react-icons/si";
 import { BsLinkedin } from "react-icons/bs";
-import { HiOutlineMailOpen } from "react-icons/hi";
-import { BsFillBriefcaseFill } from "react-icons/bs";
-import { GrNode } from "react-icons/gr";
+import { IoMdSend } from "react-icons/io";
+import { FaRegCopy } from "react-icons/fa";
 import image from "../images/po.png";
-import material from "../images/material.svg";
 import cv from "../assets/paulacelman-en.pdf";
 import "../styles/About.css";
 
 export default function About() {
+
+  const text = "pcelman@gmail.com"
+  const inputRef = useRef(null);
+
+  const copyToClipboard = async (text) => {
+    try {
+      await navigator.clipboard.writeText(text);
+      inputRef.current.value = '¡Copiado!';
+      setTimeout(() => (inputRef.current.value = text), 2000);
+    } catch (err) {
+      try {
+        inputRef.current.select();
+        document.execCommand('copy');
+        inputRef.current.value = '¡Copiado!';
+        setTimeout(() => (inputRef.current.value = text), 2000);
+      } catch (err) {
+        console.error('Error al copiar al portapapeles: ', err);
+      }
+    }
+  };
+  
   return (
     <main className="about" id="home">
       <div className="about__container">
@@ -43,9 +48,12 @@ export default function About() {
             asset to any project. My proactive and positive attitude, coupled
           with my dedication to producing high-quality work, sets me apart. */}
             </p>
-            <div className="about__links">
+            <section className="about__contact">
+
+            <article className="about__links">
               <a href="mailto:pcelman@gmail.com" target="_blank">
-                <HiOutlineMailOpen size={30} alt="Link to email" />
+                {/* <HiOutlineMailOpen size={30} alt="Link to email" /> */}
+                <IoMdSend size={32} alt="Link to email" />
               </a>
               <a href="https://github.com/pcelman" target="_blank">
                 {" "}
@@ -54,7 +62,7 @@ export default function About() {
               <a
                 href="https://www.linkedin.com/in/paula-celman/"
                 target="_blank"
-              >
+                >
                 <BsLinkedin size={30} alt="Link to LinkedIn profile" />
               </a>
               <a
@@ -62,10 +70,21 @@ export default function About() {
                 target="_blank"
                 rel="noopener noreferrer"
                 download="Paula_Celman_CV.pdf"
-              >
+                >
                 <div className="about__cv">Download CV</div>
               </a>
-            </div>
+            </article>
+            <article className="about__email">
+    <input
+        ref={inputRef}
+        className="about__email__border"
+        value={text}
+        readOnly
+      />
+     
+        <FaRegCopy size={25} onClick={() => copyToClipboard(text)} className="copy-icon"/>
+            </article>
+                </section>
           </div>
         </div>
       </div>
