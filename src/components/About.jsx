@@ -34,7 +34,7 @@ export default function About() {
       <div className="about__container">
         <div className="about__intro">
           <figure className="about__figure">
-            <img className="about__image" src={image} alt="" width="350px" />
+            <img className="about__image" src={image} alt="Paula Celman´s profile photo" width="350px" />
             {/* <div className="about__shape"></div> */}
           </figure>
           <div className="about__secondcol">
@@ -51,17 +51,21 @@ export default function About() {
             <section className="about__contact">
 
             <article className="about__links">
-              <a href="mailto:pcelman@gmail.com" target="_blank">
+              <a href="mailto:pcelman@gmail.com" target="_blank" title="email me"
+                 aria-label="Email me!">
                 {/* <HiOutlineMailOpen size={30} alt="Link to email" /> */}
                 <IoMdSend size={32} alt="Link to email" />
               </a>
-              <a href="https://github.com/pcelman" target="_blank">
+              <a href="https://github.com/pcelman" target="_blank" title='this is my Github'
+                 aria-label="Go to my Github">
                 {" "}
                 <GoMarkGithub size={30} alt="Link to GitHub profile" />
               </a>
               <a
                 href="https://www.linkedin.com/in/paula-celman/"
                 target="_blank"
+                title='this is my linkedIn'
+                aria-label="Go to my LinkedIn"
                 >
                 <BsLinkedin size={30} alt="Link to LinkedIn profile" />
               </a>
@@ -70,16 +74,19 @@ export default function About() {
                 target="_blank"
                 rel="noopener noreferrer"
                 download="Paula_Celman_CV.pdf"
+                aria-label="Go to my CV"
                 >
                 <div className="about__cv">Download CV</div>
               </a>
             </article>
             <article className="about__email">
+            <label htmlFor="input" style={{ display: 'none' }}>Write me!</label>
     <input
         ref={inputRef}
         className="about__email__border"
         value={text}
         readOnly
+        aria-label="my email"
       />
      
         <FaRegCopy size={25} onClick={() => copyToClipboard(text)} className="copy-icon"/>

@@ -34,6 +34,9 @@ const Testimonials = () => {
                 <a
                   href="https://www.linkedin.com/in/jesus-espinel/"
                   target="_blank"
+                  alt="Link to Jesus Espinel´s LinkedIn profile" 
+
+                  aria-label="Go to Jesus Espinel´s LinkedIn profile"
                 >
                   <BsLinkedin
                     className="testimonials__linkedin"
@@ -71,6 +74,9 @@ const Testimonials = () => {
                 <a
                   href="https://www.linkedin.com/in/santiago-vega-53970b217/"
                   target="_blank"
+                  alt="Link to Santiago Vega´s LinkedIn profile"
+                  
+                  aria-label="Go to Santiago Vega LinkedIn profile" 
                 >
                   <BsLinkedin
                     className="testimonials__linkedin"
@@ -105,6 +111,8 @@ const Testimonials = () => {
                 <a
                   href="https://www.linkedin.com/in/mario-villalba-8b7136179/"
                   target="_blank"
+                  alt="Link to Mario Villalva´s LinkedIn profile" 
+                  aria-label="Go to Mario Villalva´s LinkedIn profile"
                 >
                   <BsLinkedin
                     className="testimonials__linkedin"

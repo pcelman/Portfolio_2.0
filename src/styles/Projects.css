@@ -42,7 +42,7 @@
 
 .projects__card__paragraph {
   padding-top: 20px;
-  color: #787878;
+  color: #525151;
   font-size: 18px;
   margin: 20px;
 }
@@ -51,7 +51,7 @@
   padding-top: 20px;
   display: flex;
   justify-content: space-evenly;
-  color: rgb(134, 134, 134);
+  color: #525151;
   transition-property: color;
   transition-duration: 0.5s;
   text-decoration: none;
@@ -81,6 +81,16 @@
 font-size: 20px;
 text-align: center;
 padding: 30px;
+color: black;
+}
+
+.gitHub__link {
+  color: black;
+}
+
+.gitHub__link:hover {
+  text-decoration: underline;
+  color: black;
 }
 
 @media screen and (max-width: 1000px) {

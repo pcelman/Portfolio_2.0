@@ -33,7 +33,7 @@
 
 .testimonials__paragraph {
   margin: 12px;
-  color: #787878;
+  color: #4f4f4f;
   font-size: 1.1rem;
 }
 
@@ -46,14 +46,14 @@
 .testimonials__name {
   margin-left: 10px;
   padding-top: 10px;
-  color: var(--accent-color);
+  color: #07728f;
   font-size: 1rem;
   font-weight: 700;
 }
 
 .testimonials__linkedin {
   margin-top: 10px;
-  color: var(--accent-dark);
+  color: #07728f;
 }
 @media screen and (max-width: 940px) {
   .testimonials__container {

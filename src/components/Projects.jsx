@@ -34,18 +34,20 @@ export default function Projects() {
             <br />
             <br />
             <div className="projects__card__icon-center">
-              <a href="https://arquihub.vercel.app/" target="_blank">
+              <a href="https://arquihub.vercel.app/" target="_blank" 
+                 aria-label="Go to Arquihub" >
                 <BiWorld
                   size={33}
                   className="projects__card__icon-center-world"
-                  alt="Link to the deploy of Arquihub"
+                  alt="Link to Arquihub´s project deploy"
                 />
               </a>
-              <a href="https://github.com/pcelman/ARQUIHUB" target="_blank">
+              <a href="https://github.com/pcelman/ARQUIHUB" target="_blank" 
+                 aria-label="Go to Arquihub" >
                 <GoMarkGithub
                   size={30}
                   className="projects__card__icon-center-github"
-                  alt="Link to Github"
+                  alt="Link to Arquihub´s  GitHub repository"
                 />
               </a>
             </div>
@@ -72,12 +74,13 @@ export default function Projects() {
               href="https://github.com/pcelman/Pokemon-front.git"
               target="_blank"
               className="projects__card__icon-center"
+              aria-label="Go to Videogames"
             >
-              <a href="https://my-pokemon-delta.vercel.app/" target="_blank">
+              <a href="https://my-pokemon-delta.vercel.app/" target="_blank"    aria-label="Go to Pokemon">
                 <BiWorld
                   size={33}
                   className="projects__card__icon-center-world"
-                  alt="Link to the deploy of My Videogame"
+                  alt="Link to the deploy of My Pokemon"
                 />
               </a>
               <GoMarkGithub
@@ -110,8 +113,9 @@ export default function Projects() {
               href="https://github.com/pcelman/Videogames-front"
               target="_blank"
               className="projects__card__icon-center"
+              aria-label="Go to Videogames"
             >
-              <a href="https://my-videogame.vercel.app/" target="_blank">
+              <a href="https://my-videogame.vercel.app/" target="_blank"    aria-label="Go to Videogames">
                 <BiWorld
                   size={33}
                   className="projects__card__icon-center-world"
@@ -150,6 +154,7 @@ export default function Projects() {
                 href="https://www.figma.com/file/2NzlH6zSqLfxevWvKNVJCU/P-connect?node-id=0%3A1&t=tCm1GvsENAYSyUCP-1"
                 target="_blank"
                 className="projects__card__icon-center"
+                aria-label="Go to HenryConnect"
               >
                 <FiFigma
                   size={30}
@@ -161,6 +166,7 @@ export default function Projects() {
                 href="https://github.com/pcelman/Henry-connect"
                 target="_blank"
                 className="projects__card__icon-center"
+                aria-label="Go to HenryConnect"
               >
                 <GoMarkGithub
                   size={30}
@@ -173,7 +179,7 @@ export default function Projects() {
         </section>
       </div>
         <div className="projects__more">More deployed projects on my &nbsp;
-          <a href="https://github.com/pcelman?tab=repositories">GitHub.</a>
+          <a href="https://github.com/pcelman?tab=repositories"   target="_blank" className="gitHub__link">GitHub.</a>
           </div>
     </div>
     // </div>

@@ -90,7 +90,7 @@ export default function Skills() {
               </li>
               <li className="skills__item">
                 <div className="skills__name">MaterialUI</div>
-                <img src={material} height="40px" />
+                <img src={material} height="40px"  alt="Material svg"/>
               </li>
               <li className="skills__item">
                 <div>NodeJs</div>

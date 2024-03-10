@@ -10,14 +10,17 @@ const Footer = () => {
     <div className="footer">
       <div className="footer__container">
         <div className="footer__links">
-          <a href="mailto:pcelman@gmail.com" target="_blank">
+          <a href="mailto:pcelman@gmail.com" target="_blank"
+             aria-label="Write me!">
             <HiOutlineMailOpen size={30} alt="Link to email" />
           </a>
-          <a href="https://github.com/pcelman" target="_blank">
+          <a href="https://github.com/pcelman" target="_blank" 
+             aria-label="Go to my Github profile">
             {" "}
             <GoMarkGithub size={30} alt="Link to GitHub profile" />
           </a>
-          <a href="https://www.linkedin.com/in/paula-celman/" target="_blank">
+          <a href="https://www.linkedin.com/in/paula-celman/" target="_blank" 
+             aria-label="Go to my LinkedIn" >
             <BsLinkedin size={30} alt="Link to LinkedIn profile" />
           </a>
         </div>
