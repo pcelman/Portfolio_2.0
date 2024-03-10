@@ -76,6 +76,12 @@ export default function Projects() {
               className="projects__card__icon-center"
               aria-label="Go to Videogames"
             >
+              <GoMarkGithub
+                size={30}
+                className="projects__card__icon"
+                alt="Link to Github"
+              />
+            </a>
               <a href="https://my-pokemon-delta.vercel.app/" target="_blank"    aria-label="Go to Pokemon">
                 <BiWorld
                   size={33}
@@ -83,12 +89,6 @@ export default function Projects() {
                   alt="Link to the deploy of My Pokemon"
                 />
               </a>
-              <GoMarkGithub
-                size={30}
-                className="projects__card__icon"
-                alt="Link to Github"
-              />
-            </a>
           </div>
         </section>
 
@@ -115,6 +115,12 @@ export default function Projects() {
               className="projects__card__icon-center"
               aria-label="Go to Videogames"
             >
+              <GoMarkGithub
+                size={30}
+                className="projects__card__icon"
+                alt="Link to Github"
+              />
+            </a>
               <a href="https://my-videogame.vercel.app/" target="_blank"    aria-label="Go to Videogames">
                 <BiWorld
                   size={33}
@@ -122,12 +128,6 @@ export default function Projects() {
                   alt="Link to the deploy of My Videogame"
                 />
               </a>
-              <GoMarkGithub
-                size={30}
-                className="projects__card__icon"
-                alt="Link to Github"
-              />
-            </a>
           </div>
         </section>
  
