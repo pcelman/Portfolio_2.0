@@ -80,13 +80,14 @@ export default function About() {
               </a>
             </article>
             <article className="about__email">
-            <label htmlFor="input" style={{ display: 'none' }}>Write me!</label>
+            {/* <label htmlFor="input" style={{ display: 'none' }}>Write me!</label> */}
     <input
         ref={inputRef}
         className="about__email__border"
         value={text}
         readOnly
         aria-label="my email"
+        id='email input'
       />
      
         <FaRegCopy size={25} onClick={() => copyToClipboard(text)} className="copy-icon"/>
